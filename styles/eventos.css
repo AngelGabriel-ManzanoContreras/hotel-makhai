@@ -1,0 +1,49 @@
+main {
+  width: 100% !important;
+  max-width: 100% !important;
+  padding: 0;
+}
+
+.main-sect {
+  margin: 0;
+}
+
+.titulo1{
+  height: 50vh;
+  width: 100%;
+  object-fit: cover;
+  background-image: url('../principal/hotel/img/eventos/img1piegrupos.jpg');
+  background-position: center;
+  background-size: 100% auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo1 > h2 {
+  letter-spacing: 2px;
+}
+
+.titulo1 > h1 {
+  text-align: center;
+  font-size: 5rem;
+}
+
+.titulo1 > h1,
+.titulo1 > h2 {
+  text-shadow: -2px 2px 2px rgba(21, 22, 21, .65);
+}
+
+.details-cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details-cont .details {
+  width: 30%;
+  padding: 10px;
+}

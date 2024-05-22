@@ -1,0 +1,5 @@
+.env
+.hintrc
+.htaccess
+/puente/img
+/puente/conexion/config.php

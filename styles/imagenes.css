@@ -1,0 +1,13 @@
+.image-section figure {
+    height: 100px;
+    width: 125px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.image-section figure img {
+    height: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}

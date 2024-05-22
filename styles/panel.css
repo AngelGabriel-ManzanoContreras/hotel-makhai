@@ -1,0 +1,33 @@
+#adm-act-fath {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.adm-act-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*align-items: center;*/
+  /*width: fit-content !important;*/
+  justify-content: space-evenly;
+}
+
+.admin-action {
+  float: left;
+  flex-grow: 0;
+  flex-shrink: 0;
+
+  width: 300px;
+  height: fit-content;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+
+  background-color: #264354;
+}
+
+.admin-action p {
+  padding: 10px 0;
+}

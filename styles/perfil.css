@@ -1,0 +1,103 @@
+.user-info,
+.user-info-p {
+    width: 90%;
+    background-color: #5F758E;
+    border-radius: 10px;
+
+    padding: 25px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 520px) {
+    .user-info,
+    .user-info-p {
+        padding: 10px 15px;
+    }
+}
+
+.user-info-p > figure {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    background-color: #b4b8ab;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-info-p > figure > img {
+    min-height: 100%;
+    min-width: 100%;
+    border-radius: 10px;
+}
+
+.user-info-p {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info-p > section {
+    width: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+#sect-def {
+    width: 30%;
+}
+
+.user-info-p > section p,
+.user-info-p > section h2 {
+    margin: 10px 0;
+}
+
+.user-info table {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #e3e3e3;
+    border-collapse: collapse;
+}
+
+.user-info tr {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.table-header {
+    background-color: #3d5a80;
+}
+
+.user-info td, th {
+    padding: 5px;
+    text-align: center;
+    border: 1px #e3e3e3 solid;
+    /*white-space: nowrap;*/
+    word-wrap: break-word;
+}
+
+.tab-col-id {
+    width: 7%;
+    max-width: 7%;
+    background-color: #3d5a80;
+}
+
+.tab-col-nam {
+    width: 28%;
+    max-width: 28.5%;
+}
+
+.tab-col-date,
+.tab-col-mon {
+    width: 12%;
+    max-width: 12%;
+}
+
+.tab-col-ver {
+    width: 7%;
+    max-width: 7%;
+}
